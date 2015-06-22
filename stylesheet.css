@@ -1,0 +1,296 @@
+div{
+	margin: 0px 0px 0px 0px;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: arial,helvetica,sans-serif;
+}
+
+hr{
+	border: 0px;
+	height: 1px;
+	background: #E1E1E1;
+}
+
+p{
+	padding: 5px;
+	line-height: 140%;
+}
+h4{
+	padding: 10px 0 10px 4px;
+}
+
+.short-black-line{
+	width: 50px;
+	background: black;
+	margin: 20px 0 15px 0;
+}
+.normal{
+	font-weight: normal;
+}
+.clear-both{
+	clear: both;
+}
+.light-grey{
+	color: #999;
+}
+.darker-grey{
+	color: #444;
+}
+
+.small-text{
+	font-size: 11px;
+}
+.smaller-text{
+	font-size: 10px;
+}
+
+.pad-five{
+	padding: 5px;
+}
+
+.bold{
+	font-weight: bold;
+}
+.med-size-grey{
+	font-size: 13px;
+	color: #808080;
+}
+.pad-top-ten{
+	padding-top: 10px;
+}
+.pad-bot-ten{
+	padding-bottom: 10px;
+}
+/* header bar */
+.header{
+	position: fixed;
+	right: 0px;
+	left: 40px;
+	padding: 5px 10px 5px 0px;
+	border-bottom: 1px solid;
+	border-color: #c5c5c5;
+	margin: 0px;
+	background-color: #fff;
+	z-index: 1;
+}
+
+.top-bar{
+	padding: 10px;
+	font-weight: bold;
+  	font-size: 0.6875rem;
+  	color: #333;
+}
+
+.float-right{
+	float: right;
+	padding-right: 5px;
+}
+
+.float-left{
+	float: left;
+}
+
+#NYTlogo img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5px;
+}
+
+#sections{
+	box-shadow: 0px 2px 10px 1px #e0e0e0;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ccc;
+	padding: 7px;
+	border-radius: 2px;
+	position: relative;
+	left: -20px;
+	margin-left: 0px;
+	background-color: #fff;
+}
+
+/* Main page */
+.content{
+	position: relative;
+	top: 45px;
+	left: 40px;
+	margin-right: 40px;
+}
+
+.article{
+	clear: both;
+}
+
+.shadow{
+	box-shadow: -1px 1px 10px 2px  #f0f0f0;
+}
+
+/* top  links */
+.top-link{
+	width: 250px;
+	border-right: 1px solid;
+	border-color: #aaa;
+	display: inline-block;
+	margin: 3px;
+}
+
+/* Article content */
+.article-content{
+	display: block;
+	width: 1050px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px;
+}
+.article-content h1{
+	padding: 15px 0px 15px 0px;
+	font-style: italic;
+}
+
+#author{
+	font-weight: bold;
+	font-size: 11px;
+	padding: 10px 0px 10px 0;
+}
+#author span{
+	padding-left: 10px;
+	font-weight: normal;
+}
+
+.image{
+	padding: 10px 0 10px 0;
+}
+.image-desc{
+	width: 700px;
+	padding: 5px 0 5px 0;
+}
+
+.article-body{
+	padding: 20px 0 0 0;
+	width: 950px;
+	margin-bottom: 20px;
+}
+
+.links-bar{
+	width: 90px;
+}
+.left-bar{
+	width: 90px;
+	height: 10px;
+}
+.share-link{
+	padding: 10px 0 10px 0;
+}
+
+.article-text{
+	width: 500px;
+	color: #333;
+	padding: 10px 10px 10px 20px;
+}
+.video{
+	border: none;
+	margin: 30px 0px 10px -20px;
+}
+.video-title{
+	margin-left: -20px;
+}
+/* extra */
+.extra{
+	position: relative;
+	left: 20px;
+}
+.rows-container{
+	position: relative;
+}
+.extra-row1{
+	position: absolute;
+	top: 156px;
+}
+.extra-row2{
+	position: absolute;
+	top: 426px;
+}
+.extra-col{
+	width: 227px;
+	font-size: 12px;
+	line-height: 140%;
+	padding-right: 10px;
+}
+.etitle{
+	padding-right: 5px;
+	font-size: 11px;
+}
+
+.comment-box{
+	height: 600px;
+	width: 300px;
+}
+
+#recent-comments{
+	border: none;
+	border-top: 1px dotted;
+	border-bottom: 1px dotted;
+	border-color: #999;
+	margin-left: 70px;
+	position: relative;
+	top: 450px;
+}
+
+.comments-title{
+	font-weight: bold;
+	font-size: 11px;
+	color: #326891;
+	margin: 10px 0 5px 0;
+}
+.bold-title{
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0 0 3px 0;
+}
+.comment{
+	padding: 10px 0 10px 0;
+}
+
+/* footer */
+.bottom-hr{
+    border: none;
+    border-top: medium double #ccc;
+    padding: 0;
+    margin: 5px 0 5px 0;
+}
+
+.footer{
+	padding: 20px 0 0 0;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
+.footer-col{
+	padding: 0 10px 0 0;
+	width: 140px;
+}
+.footer-side{
+	border: none;
+	border-left: 1px solid;
+	border-color: #ccc;
+}
+.footer-side-lower{
+	margin: 10px;
+	border: none;
+	border-top: 1px solid;
+	border-color: #ccc;	
+	height: 160px;
+}
+.bot-pad{
+	padding: 10px 0 0 0;
+	margin-left: -5px
+}
+
+.bottom{
+	margin: 10px 0 0 0;
+	padding-bottom: 10px;
+}
